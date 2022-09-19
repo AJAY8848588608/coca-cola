@@ -24,14 +24,22 @@ body{
 .icon{
     color: #fff;
     padding-left: 72px;
+    cursor: pointer;
    
 }
+
 .logotext{
     color: #ffff;
     margin-top: -25px;
     margin-left: 105px;
     font-size: 17px;
     font-family: 'Gotham SSm A', 'Gotham SSm B', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+.logotext:hover{
+    text-decoration: underline black 1px;
+    
+
 }
 .mainbody{
     height: 1390px;
@@ -46,6 +54,7 @@ body{
 .body1image{
     margin-left: 734px;
     margin-top: 25px;
+    cursor: pointer;
 }
 .body1text{
     text-align: center;
@@ -53,11 +62,16 @@ body{
     color: red;
     margin-top: 0px;
     font-weight: bold;
+    cursor: pointer;
 }
 .body1icon{
     width: 70px;
     margin-left: 722px;
     margin-top: -31px;
+    cursor: pointer;
+}
+.body1icon:hover{
+  color: red;
 }
 .body2{
     width: 1250px;
@@ -122,6 +136,11 @@ body{
 }
 td{
     padding: 7px;
+    cursor: pointer;
+
+}
+td:hover{
+    color: red;
 }
 .footer{
     width: 100%;
